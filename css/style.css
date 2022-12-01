@@ -1,0 +1,434 @@
+@charset "UTF-8";
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    padding: 0px!important;
+    margin-bottom: 0px;
+    height: 33px;
+    margin-top: 16px;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252324;
+    height: 60px;
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    width: 82.5%;
+    
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+     padding: 5px 0;
+    
+}
+
+.redes-sociais img {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    padding-top: 5.5px;
+}
+
+.header-2 {
+    
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: red;
+}
+
+.menu-urls{
+    height: 75px;
+    border-bottom: 3px solid #efefef;
+    
+}
+ nav ul li {
+    display: inline-block;
+    color: #2b2a2a;
+    margin-left: 10px;
+    height: 50px;
+    
+ }
+
+ nav ul li:hover {
+    border-bottom: 3px solid #00bac6;
+ }
+
+ nav a:hover {
+    color: #00bac6;
+    
+ }
+ 
+
+ nav a {
+    color: #2b2a2a;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+ }
+
+ .col-100 {
+    width: 100%;
+ }
+
+ button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(..//img/seta\ esquerda.png);
+    top: 35%;
+    left: 10%;
+ }
+
+ button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(..//img/seta\ direita.png);
+    top: 35%;
+    right: 10%;
+ }
+
+ .slider-principal {
+   width: 100%;
+ }
+ 
+ slick-list {
+    width: 100%!important;
+ }
+ .slick-initialized {
+    overflow: hidden;
+ }
+
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+ }
+
+
+ .slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 500px;
+ }
+
+li.slick-active button {
+    background-color: #00bac6;
+ }
+
+ .slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+ }
+
+ .texto-destaque {
+   margin-top: 4em;
+   text-align: center;
+   background-color: rebeccapurple;
+ }
+
+ .texto-destaque strong {
+   color: #646464;
+ }
+
+ .texto-destaque p {
+   color: #3a3939;
+   font-size: 14px;
+line-height: 21px;
+ }
+
+ .texto-destaque h2{
+   margin-top: 4em;
+    margin-bottom: -24px;
+ }
+ .texto-destaque >p   {
+   padding: 0 250px;
+ }
+
+ .col-3 {
+   text-align: center;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 29%;
+   float: left;
+   position: relative;
+  
+   
+ }
+ 
+ .bloco-texto {
+   margin-top: 3em;
+   height: 525px;
+ }
+
+ .col-4 { 
+   display: flex;
+   margin: auto;
+   margin-top: 20px;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 45px;
+   flex-direction: column;
+   background-color: #1d1d2e;
+   width: 500px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+ }
+
+ .col-4 img  {
+   margin: 0 auto;
+
+ }
+ 
+ .bloco-formulario {
+   /*
+   
+   
+   box-sizing: border-box;*/
+   margin: auto;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-color: #101026;
+   
+ }
+
+ .bloco-formulario h2 {
+   color: #f5f5f5;
+   font-size: 1.5rem;
+   margin: 2rem;
+ }
+ .bloco-formulario form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ form label {
+   color: #f5f5f5;
+   font-size: 17px;
+   margin-bottom: 4px;
+ }
+ 
+ form input {
+   padding: 15px;
+   outline: none;
+   border: 0;
+   margin-bottom: 10px;
+   transition: all 0.5s;
+
+ }
+ 
+ form input:focus {
+   border-radius: 16px;
+ }
+
+ form select {
+   font-size: 15px;
+   outline: none;
+   padding: 15px;
+   border: 0;
+   margin-bottom: 10px;
+   
+ }
+
+form select:focus {
+   border-radius: 16px;
+} 
+
+
+
+ form textarea {
+   padding: 10px;
+   outline: none;
+   border: 0;
+   font-size: 15px;
+   resize: none;
+   margin-bottom: 30px;
+   transition: all 0.5s;
+ }
+  form textarea:focus {
+   border-radius: 16px;
+  }
+
+  form button {
+   padding: 15px;
+   cursor: pointer;
+   font-size: 16px;
+   background-color: transparent;
+   border: 2px solid #f5f5f5;
+   color: #f5f5f5;
+   transition: all 1s;
+   margin-bottom: 20px;
+  }
+
+  form button:hover {
+   background-color: #f5f5f5;
+   color: #101026;
+   border-radius: 16px;
+  }
+
+  /* pag obrigado*/
+.obrigado {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-color: #101026;
+   flex-direction: column;
+}
+.obrigado h1 {
+   font-size: 45px;
+   color: #f5f5f5;
+   margin-bottom: 30px;
+}
+ 
+.obrigado p {
+   color: #f5f5f5;
+   margin-bottom: 50px;
+} 
+
+.obrigado a {
+   padding: 15px 55px;
+   background-color: #ffffff;
+   text-decoration: none;
+   color: #101026;
+   border-radius: 10px;
+  font-size: 18px;
+}
+
+.col-5 {
+   float: left;
+   width: 25%;
+   text-align: center;
+   
+}
+
+.col-5 img {
+
+   cursor: pointer;
+   margin: 0 auto;
+   padding-top: 1.5em;
+
+}
+
+.parceiros {
+   height: 170px;
+   background-color: #00bac6;
+}
+
+.parceiros img {
+   margin-top: 50px;
+   
+}
+
+footer {
+   height: 150px;
+   color: #c1c1c1;
+   background-color: #252324;
+   font-size: 14px;
+   text-align: center;
+   padding-top: 15px;
+   
+   
+  
+}
+
+footer p {
+   
+   padding-bottom: 7px;
+   margin: 0;
+   
+}
+footer h3 {
+   margin-bottom: 3px;
+}
+
+@media screen and (max-width:768px) {
+   main{
+      width: 768px;
+      
+   }
+
+   .header-2{
+      width: 730px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-top-width: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+      
+   }
+
+   .texto-destaque{
+      width: 100%;
+   }
+
+   .logo{
+   width: 72.5%;
+   padding-left: 13px;
+   }
+
+   .col-3{
+      float: none;
+      margin: auto;
+      text-align: left;
+   }
+
+   .bloco-formulario{
+      padding-bottom: 20px;
+
+   }
+   .col-5{
+      width: 19%;
+   }
+   .col-5 img{
+     width: 132px;
+     height: 43px;
+      
+   }
+
+   .contato-footer{
+      
+      font-size: 14px;
+      text-align: center;
+   }
+}
+
+
