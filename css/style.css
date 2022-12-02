@@ -396,6 +396,16 @@ footer h3 {
       
    }
 
+   .slick-dots {
+      margin: 0 auto;
+      width: 50%;
+      position: absolute;
+      left: 50%;
+      top: 200px;
+      
+   }
+  
+
    .texto-destaque{
       width: 100%;
    }
@@ -429,6 +439,59 @@ footer h3 {
       font-size: 14px;
       text-align: center;
    }
+}
+
+@media screen and (max-width:600px){
+   main{
+      width: 578px;
+   }
+
+   .logo {
+      width: 69.5%;
+      padding-left: 0;
+    }
+   .header-2{
+      width: 570px;
+      
+   }
+   .slick-dots {
+      margin: 0 auto;
+      width: 50%;
+      position: absolute;
+      left: 50%;
+      top: 150px;
+      
+   }
+   
+   .texto-destaque p{
+      padding: 0;
+      margin: auto;
+      background-color: rgb(248, 183, 183);
+   }
+
+   .col-3{
+      width: 581px;
+      float: none;
+      margin: auto;
+      padding: 0;
+      text-align: center;
+      background-color: orange;
+     
+      
+   }
+
+   .col-4{
+      width: auto;
+   }
+
+   .col-5{
+      width: auto;
+      
+   }
+   .col-5 img{
+      padding: 20px 5px;
+   }
+
 }
 
 
