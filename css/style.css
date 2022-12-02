@@ -50,7 +50,7 @@ main, .content {
     width: 980px;
     margin: 0 auto;
     padding: 10px;
-    background-color: red;
+    background-color: pink;
 }
 
 .menu-urls{
@@ -125,12 +125,12 @@ main, .content {
     overflow: hidden;
  }
 
-
+/*estilo dos cirulos branco*/
 .slick-dots li button{
     font-size: 0px;
-    border: 5px solid #ffffff;
-    width: 26px;
-    height: 26px;
+    border: 3px solid #ffffff;
+    width: 20px;
+    height: 20px;
     background-color: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -138,21 +138,22 @@ main, .content {
     
  }
 
-
+/* alinhar circulos do slide 4:09 e posião do mesmo*/
  .slick-dots {
     margin: 0 auto;
     width: 50%;
     position: absolute;
     left: 50%;
     top: 500px;
+   /* background-color: red;*/
  }
 
 li.slick-active button {
     background-color: #00bac6;
  }
-
+/*distancia entre os cirulos*/
  .slick-dots li {
-    padding-left: 10px;
+    padding-left: 8px;
     display: inline-block;
  }
 
@@ -493,5 +494,3 @@ footer h3 {
    }
 
 }
-
-
